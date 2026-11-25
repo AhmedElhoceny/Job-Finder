@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# SQLite databases & local data
+*.db
+*.sqlite
+*.sqlite3
+data/jobs.db
+
+# Generated resumes & cover letters
+data/generated/
+data/tailored/
+
+# Logs & temp files
+*.log
+.DS_Store
+Thumbs.db
